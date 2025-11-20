@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitMusicTagger", "ExplicitMusicTagger\ExplicitMusicTagger.csproj", "{68343CD1-E645-4691-BACC-E3852B3AB760}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ExplicitMusicTaggerSetup", "ExplicitMusicTaggerSetup\ExplicitMusicTaggerSetup.vdproj", "{5DCDAAD2-39FC-7BBE-D6D7-AE676EB2B1D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68343CD1-E645-4691-BACC-E3852B3AB760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68343CD1-E645-4691-BACC-E3852B3AB760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68343CD1-E645-4691-BACC-E3852B3AB760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68343CD1-E645-4691-BACC-E3852B3AB760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCDAAD2-39FC-7BBE-D6D7-AE676EB2B1D5}.Debug|Any CPU.ActiveCfg = Debug
+		{5DCDAAD2-39FC-7BBE-D6D7-AE676EB2B1D5}.Release|Any CPU.ActiveCfg = Release
+		{5DCDAAD2-39FC-7BBE-D6D7-AE676EB2B1D5}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6483AC2C-52B7-4464-9B39-C33D6BDA9200}
+	EndGlobalSection
+EndGlobal
