@@ -57,4 +57,4 @@ Here's the limitation. This application does not see the lyrics metadata on Appl
 
 Please also keep in mind that Apple has not retroactively deemed music from the past that does have language as explicit. I have plenty of albums from the 90s that were not parental advisory, but have plenty of language and Apple does not tag those songs with an "E."
 
-I hope that maybe one day, I could update this app to just search and match lyrics in the process!
+I hope that maybe one day I could update this app to just search and match lyrics in the process!
