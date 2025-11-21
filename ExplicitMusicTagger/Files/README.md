@@ -4,13 +4,19 @@ Please keep in mind that I cannot promise this application will catch all bad la
 
 ### Instructions
 
-Drag .m4a files or folders containing .m4a files to the "Files to Process" window. Preferrably these files should have lyrics added to them. "MediaHuman Lyrics Finder" is an application I've used.
+#### Setup
+
+In order for this application to work, the song files should have lyrics updated in the metadata. "MediaHuman Lyrics Finder" is an application I've used and suggest for this. It finds song lyrics from different sources and updates the file. "MediaHuman Lyrics Finder" will not work on songs from Apple purchases or downloaded from Apple's Music subscription. Please read the section toward the bottom of this ReadMe about songs from Apple Music subscription
+
+#### Drag Your Files
+
+Drag song files or folder with song files (.m4a or .m4p) to the "Files to Process" window. Make your selection and click "Process."
 
 #### The Confirmation Process
 
 WARNING: You are going to still see some language!
 
-During this process, the application will look through the lyrics to find anything on the "Base Explict Word List." If it finds something, it will prompt you to confirm if what it found was actually explicit or not. If a song is deemed explicit, the "Comments" metadata tag will have the string `[Explicit]` added.
+During this process, the application will look through the lyrics in the metadata to find anything on the "Base Explict Word List." If it finds something, it will prompt you to confirm if what it found was actually explicit or not. If a song is deemed explicit, the "Comments" metadata tag will have the string `[Explicit]` added.
 
 Why are you confirming? Because artists are creative and make up new compound words including ones with bad language. But don't worry! You will be asked less and less as files are processed.
 
@@ -43,6 +49,12 @@ Apologies up front. I only considered iTunes because I've been a user of it for 
 
 #### Will this work on songs I've purchased from Apple or from the Apple Music subscription?
 
-Actually, yes. But let's talk about the difference between songs you've ripped youself (which I will just refer to as "your music" or "your own music") and songs from Apple purchases or the Apple Music subscription (which I will just refer to as "Apple music"). Your music, once converted, will be .m4a files while Apple music, once downloaded, will be .m4p files. I did say downloaded, btw. Apple music must be downloaded to alter. You'll have to find Apple music in a separate folder called "Apple Music."
+Actually, yes. However, there are some limitations. Let's talk about the difference between songs you've ripped youself (which I will just refer to as "your music" or "your own music") and songs from Apple purchases or the Apple Music subscription (which I will just refer to as "Apple music"). Your music, once converted, will be .m4a files while Apple music, once downloaded, will be .m4p files. I did say downloaded, btw. Apple music must be downloaded for this application to be able to update the comments tag. You'll have to find Apple music in a separate folder called "Apple Music."
 
-Most Apple music already has lyrics that you can view and has an included "E" symbol to indicate a song's explicit status. However, Apple has still not provided a way to create a Smart Playlist with filtering on that "E" symbol. However, Explicit Music Tagger can see this "E" tag from Apple and update the comments tag. So the same course of action for your own music will have to be taken to filter on the "comments" tag.
+Most Apple music already has lyrics that you can view and has an included "E" symbol to indicate a song's explicit status. 
+
+Here's the limitation. This application does not see the lyrics metadata on Apple music (.m4p files). However, I've found a way to see the "E" tag and respond on that. Because Apple has still not provided a way to create a Smart Playlist with filtering on that "E" symbol, this application will update the "comments" tag to include `[Explicit]`. So the same course of action for your own music will have to be taken to filter on the "comments" tag.
+
+Please also keep in mind that Apple has not retroactively deemed music from the past that does have language as explicit. I have plenty of albums from the 90s that were not parental advisory, but have plenty of language and Apple does not tag those songs with an "E."
+
+I hope that maybe one day, I could have update this app to just search and match lyrics in the process!

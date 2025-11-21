@@ -88,12 +88,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0A466CFA082C046CFE5AA7E1D25999BD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_099FDFC2C985484881B14A27AE455E98"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -133,6 +127,12 @@
         "OwnerKey" = "8:_6F4FD13FC92C46F2330E0CC3DA75B505"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0A466CFA082C046CFE5AA7E1D25999BD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -151,6 +151,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -167,6 +175,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -536,15 +560,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ExplicitMusicTagger"
-        "ProductCode" = "8:{D62CDC3E-DFBA-4A89-B0C4-21C82955CE57}"
-        "PackageCode" = "8:{02C143C8-6616-4A40-9D0F-446122367C37}"
+        "ProductCode" = "8:{192D75F6-6538-4C66-A376-6EBEDFA51A49}"
+        "PackageCode" = "8:{1D9B0001-0071-4208-A612-FB8C1379FD62}"
         "UpgradeCode" = "8:{6AF2758E-D26D-4961-AE01-592539677DF6}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.2"
         "Manufacturer" = "8:KodaKyote"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
